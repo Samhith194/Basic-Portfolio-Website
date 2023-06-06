@@ -1,0 +1,357 @@
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;
+ #146C94
+ #19A7CE
+ #AFD3E2
+ #F6F1F1
+*/
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;  
+  width: auto;
+  height: auto;
+  background-color: #AFD3E2;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.profile {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.ma.text {
+  margin-top: 15%;
+}
+.ma > p {
+  font-family: 'Fira Sans', sans-serif;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.ma > h1 {
+  font-family: 'Sacramento', cursive;
+  color: #19A7CE;
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.ma > h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+.ma > img {
+  justify-content: center;
+  border: 5px solid #19A7CE;
+  opacity: 1.0;
+}
+.about {
+  display: flex;  
+  width: auto;
+  height: auto;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.pic > img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ab > h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+.ab > h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 0%;
+  margin: 0%;
+}
+.line1 {
+  border: double 6px rgb(191, 191, 191);
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 0px;
+}
+.ski {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.ski > h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #146C94;
+}
+.skiabt {
+  display: grid;
+  grid-template-columns: 280px 300px;
+  grid-template-rows: 1fr;
+  margin-bottom: 50px;
+}
+.codetxt {
+  text-align: left;
+  padding-left: 30px;
+}
+.codetxt > h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.6rem;
+}
+.codetxt > p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.07em;
+}
+.hob {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.hob > h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #146C94;
+}
+.hobabt {
+  display: grid;
+  grid-template-columns: 280px 300px;
+  grid-template-rows: 1fr 50px 1fr;
+  margin-bottom: 50px;
+}
+.movietxt {
+  text-align: left;
+  padding-left: 30px;
+  grid-area: 3/2/4/3;
+}
+.moviegif {
+  grid-area: 3/1/4/2;
+}
+.movietxt > h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.6rem;
+}
+.movietxt > p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.07em;
+}
+.footer {
+  display: flex;  
+  width: auto;
+  height: auto;
+  background-color: #AFD3E2;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.foo > h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.link {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: auto;
+}
+.email {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.mobile {
+  display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.case {
+  display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.foo > footer {
+  color: #146C94;
+  margin-top: 10%;
+  font-size: 20px;
+}
+@media (max-width:1115px)  {
+  .ski {
+    width:60%;
+  }
+  .hob {
+    width:60%;
+  }
+}
+@media (max-width:915px) {
+  .profile {
+    display: grid;
+    grid-template-rows: 1.5fr;
+  }
+  .ma > p {
+    font-size: 0.7rem;
+    margin-bottom: 8px;
+  }
+  .ma > h1 {
+    font-size: 4.3rem;
+    font-weight: 600;
+  }
+  .ma > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .ma > img {
+    height: 300px;
+  }
+  .pic > img {
+    height: 150px;
+  }
+  .ab > h2 {
+    font-size: 2.5rem;
+  }
+  .ab > h4 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .ski > h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .hob > h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .foo > h4 {
+    font-size: 1em;
+  }
+  .email img {
+    height: 30px;
+  }
+  .mobile img {
+    height: 30px;
+  }
+  .case img {
+    height: 30px;
+  }
+  .foo > footer {
+    color: #146C94;
+    margin-top: 10%;
+    font-size: 16px;
+  }
+}
+@media (max-width:850px) {
+  .ski {
+    width:80%;
+  }
+  .hob {
+    width:80%;
+  }
+  .codetxt > h4 {
+    font-size: 1.4rem;
+  }
+  .codetxt > p {
+    font-size: 1em;
+  }
+  .movietxt > h4 {
+  font-size: 1.4rem;
+  }
+  .movietxt > p {
+  font-size: 1em;
+  }
+}
+@media (max-width:705px) {
+  .profile {
+    display: block;
+  }
+  .ma.text {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .ma > h1 {
+    font-size: 4.6rem;
+    font-weight: 600;
+  }
+  .ma > h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .ma > img {
+    height:0px;
+    width: 0px;
+  }
+  .pic > img {
+    height: 130px;
+  }
+  .ab > h2 {
+    font-size: 2.2rem;
+  }
+  .ab > h4 {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  .skiabt {
+    display: block;
+    margin: auto;
+  }
+  .codegif {
+    margin: auto;
+    padding-left: 20%;
+  }
+  .hobabt {
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  .codetxt > p {
+    padding-bottom: 30px;
+  }
+  .picgif {
+    margin: auto;
+    padding-left: 20%;
+  }
+  .moviegif {
+    margin: auto;
+    padding-left: 20%;
+  }
+  .email img {
+    height: 25px;
+  }
+  .mobile img {
+    height: 25px;
+  }
+  .case img {
+    height: 25px;
+  }
+}
