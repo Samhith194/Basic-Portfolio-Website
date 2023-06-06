@@ -362,3 +362,17 @@ body {
     font-size: 13px;
   }
 }
+@media (max-width:360px) {
+  .codegif {
+    margin: auto;
+    padding-left: 20px;
+  }
+  .picgif {
+    margin: auto;
+    padding-left: 20px;
+  }
+  .moviegif {
+    margin: auto;
+    padding-left: 20px;
+  }
+}
